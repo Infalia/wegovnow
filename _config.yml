@@ -5,8 +5,8 @@ name: "Minimal-Block"
 description: "Minimalistic, friendly, responsive."
 language: "en"
 
-url: https://infalia.github.io/wegovnow/
-baseurl: ''
+url: https://infalia.github.io/wegovnow
+baseurl: 'https://infalia.github.io'
 
 #------------------------------------------------------------------------------
 # Markdown processor and code highlighting
@@ -22,7 +22,7 @@ kramdown:
 #------------------------------------------------------------------------------
 # Pagination and friendly URLs
 #------------------------------------------------------------------------------
-paginate: 2
+paginate: 10
 paginate_path: /page-:num
 permalink: /:title
 
