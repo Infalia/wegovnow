@@ -6,7 +6,7 @@ description: "A guide to project outcomes by the INFALIA team"
 language: "en"
 
 url: https://infalia.github.io/wegovnow
-baseurl: 'https://infalia.github.io'
+baseurl: 'wegovnow'
 
 #------------------------------------------------------------------------------
 # Markdown processor and code highlighting
@@ -29,7 +29,7 @@ permalink: /:title
 #------------------------------------------------------------------------------
 # Social sharing, comments and RSS.
 #------------------------------------------------------------------------------
-disqus-id: yourusername
+disqus-id:
 
 enable-share: false
 twitter: yourusername
