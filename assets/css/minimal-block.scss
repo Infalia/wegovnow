@@ -127,14 +127,14 @@ nav {
 
 
     h1, h2 {
-        font-size: 3em;
+        font-size: 2.2em;
         font-weight: 300;
         margin: 0;
     }
 
     a, a:visited {
         color: $color-3;
-        text-transform: uppercase;
+        text-transform: none;
     }
 
     a:hover { cursor: pointer; }
