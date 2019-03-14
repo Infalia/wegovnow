@@ -2,19 +2,17 @@
 layout: post
 title:  "WeGovNow - Nagivation Bar"
 date:   2019-03-13 22:00:00
-categories: [module, software]
+categories: [barebone, module]
 tags: module
 ---
 This repository hosts the WeGovNow Navigation Bar. 
 
-It is designed and implemented based on good accessibility practices such as high contrast and being keyboard friendly
+It is designed and implemented based on good accessibility practices such as high contrast and being keyboard friendly.
 
 Prerequisites
 ----------------
-None
+None, this is a barebone module and you can **use the Navigation Bar for your projects as standalone module** (outside the context of WeGovNow).
 
-Installation
+GitHub link
 ----------------
-
-Setting up
-----------------
+Learn how to use the WeGovNow Navigation Bar and download the source code at https://github.com/Infalia/WeGovNow-NavigationBar
