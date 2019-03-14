@@ -16,6 +16,7 @@ $color-1: #2c3e50; /* Title background */
 $color-2: #34495e; /* Description background */
 $color-3: #f2f2f2; /* Modules background */
 $color-4: #7f8c8d; /* Main menu background */
+$color-code: darkred;
 
 $font-stack: "Open Sans", sans-serif;
 $font-size: 18px;
@@ -270,16 +271,15 @@ article {
 -------------------------------------------------------------------------*/
 
 code {
-    background: $color-3;
+    background: none;
     font: 0.9em monospace;
     line-height: 1.2em;
     padding: 0.1em;
+    color: $color-code;
 }
 
 pre {
     @extend code;
-    border-top: 3px solid #ccc;
-    border-bottom: 1px solid #ccc;
     display: block;
     margin:0.5em 0em;
     padding: 0.3em 0;
