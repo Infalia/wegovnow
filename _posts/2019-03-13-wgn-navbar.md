@@ -15,4 +15,4 @@ None, this is a barebone module and you can **use the Navigation Bar for your pr
 
 GitHub link
 ----------------
-Learn how to use the WeGovNow Navigation Bar and download the source code at https://github.com/Infalia/WeGovNow-NavigationBar
+Learn how to use the WeGovNow Navigation Bar and download the source code from [GitHub WeGovNow - Navigation Bar repository](https://github.com/Infalia/WeGovNow-NavigationBar)
