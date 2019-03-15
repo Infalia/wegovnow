@@ -47,19 +47,19 @@ Trusted Marketplace is composed of the following sub-systems:
 
 1) The "Social Accounts Linker" for collecting personal posts
 
-2) The "Reputation Mechanism" to analyse the collected data from the Social Accounts Linker and set a user score
+2) The "Reputation Mechanism" to analyse the collected data from the "Social Accounts Linker" and set a user score
 
 3) The "Enhanced User Profile" to be used for better match-making
 
-4) The "Accessibility Preferences" (part of the Enhanced User Profile)
+4) The "Accessibility Preferences" (part of the "Enhanced User Profile")
 
-5) The "Offers and Demands" (the ancestor of future Offers & Requests)
+5) The "Offers and Demands" (the ancestor of the future "Offers & Requests")
 
-6) The "Personalised Timeline" (which is moved in the WeGovNow Landing Page)
+6) The "Personalised Timeline" (which is moved in the "WeGovNow Landing Page")
 
-For convenience, we have managed to decouple the reputation mechanism from the Trusted Marketplace. It has a command line interface that allows to input tweets and outputs a set of metrics that could help define the reputation score of a person. The training dataset it was supposed to be populated during the pilot phase of WeGovNow through the "Social Accounts Linker" but the initial collected data during Prototype 3 are erased due to GDPR adjustment. 
+For convenience, we have managed to decouple the reputation mechanism from the Trusted Marketplace. It has a command line interface that allows to input tweets and outputs a set of metrics that could help define the reputation score of a person. The training dataset it was supposed to be populated during the pilot phase of WeGovNow through the "Social Accounts Linker" but the initial collected data during Prototype 3 are erased due to GDPR adjustment and afterwards the Trusted Marketplace was deprecated. 
 
-So, in order to use the Reputation Mechanism you need to collect new data and more specifically new tweets. Note that the "Social Accounts Linker" supports Twitter, Facebook, LinkedIn and Google social accounts, the Reputation Mechanism works only with Twitter data.
+So, in order to use the Reputation Mechanism you need to collect new data and more specifically new tweets. Note that, the Social Accounts Linker supports; Twitter, Facebook, LinkedIn and Google social accounts, but the Reputation Mechanism works only with Twitter data.
 
 For technical information and source code please visit the [Reputation Mechanism GitHub repository](#)
 
