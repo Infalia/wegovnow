@@ -6,7 +6,7 @@ title: "Scenarios"
 
 Joomla! has thousands of free and paid extensions that could be included in the WeGovNow platform.
 
-At the first stages of the WeGovNow project, ImproveMyCity for WeGovNow was a monolithic Joomla application that included all WeGovNow dependencies inside the main component. Although this led to a quick prototype, this king of design wouldn't allowed the expandability of the system and most importantly, it was very difficult for third parties to reuse any of the features.
+At the first stages of the WeGovNow project, ImproveMyCity for WeGovNow was a monolithic Joomla application that included all WeGovNow dependencies inside the main component. Although this led to a quick prototype, this kind of design wouldn't allowed the expandability of the system and most importantly, it was very difficult for third parties to reuse any of the features.
 
 Later on, ImproveMyCity broke into small modules and plugins that could be used independently and standalone, either with little or no parameterisation. Moreover, each module and plugin has its own UI for easier setup (no configuration files are used anymore).
 
