@@ -9,7 +9,7 @@ This repositoty hosts the Unified WeGovNow User Management (UWUM) slogin plugin 
 
 It allows to login to your Joomla instance via UWUM.
 
-The following activity diagram displays the Login workflow;
+The following activity diagram displays the Login workflow as applied in the [ImproveMyCity for WeGovNow component](https://infalia.github.io/wegovnow/imc-core);
 
 ![Login workflow)](https://infalia.github.io/wegovnow/assets/images/UWUM_API_call_activity_diagram.png)
 
