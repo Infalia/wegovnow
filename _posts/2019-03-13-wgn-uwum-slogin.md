@@ -31,14 +31,14 @@ Setting up
 ----------------
 In order to setup the plugin, the following options should be defined:
 
-1) Client ID
-2) Client secret
-3) Path to (.pem) certificate
-4) Authorisatio URL
-5) Token URL
-6) Info URL
-7) Notify email URL
-8) Callback URL (calculated automatically by the plugin)
+1) Client ID  
+2) Client secret  
+3) Path to (.pem) certificate  
+4) Authorisation URL  
+5) Token URL  
+6) Info URL  
+7) Notify email URL  
+8) Callback URL (calculated automatically by the plugin)  
 
 An example setup can be found in the below screenshot
 
