@@ -10,27 +10,30 @@ At the first stages of the WeGovNow project, ImproveMyCity for WeGovNow was a mo
 
 Later on, ImproveMyCity broke into small modules and plugins that could be used independently and standalone, either with little or no parameterisation. Moreover, each module and plugin has its own UI for easier setup (no configuration files are used anymore).
 
-Due to the heavy decoupling that took place, **anyone who wishes to include their Joomla based application in the WeGovNow platform is able to do it** by using these modules and plugins and by following the steps below:
+Due to the heavy decoupling that took place, **anyone who wishes to include their Joomla based application in the WeGovNow platform is able to do it** by using the following modules and plugins and by following the [prerequisites described in the bottom of the page about getting a signed certificate](#prerequisites).
 
-1) xxx  
-2) xxxx  
-3) xxxxx  
+1) [WeGovNow Nagivation Bar - Joomla Module](https://infalia.github.io/wegovnow/wgn-navbar)  
+2) [WeGovNow OnToMap Logger - Joomla plugin](https://infalia.github.io/wegovnow/wgn-otm-logger)  
+3) [WeGovNow UWUM - Slogin Joomla Plugin](https://infalia.github.io/wegovnow/wgn-uwum-slogin)  
 
 > ## I want to install the fully functional ImproveMyCity application in the WeGovNow platform.
 
 For those cities who already using the WeGovNow platform and wish to include in their setup the ImproveMyCity application, the following steps are necessary:
 
-1) xxx  
-2) xxxx  
-3) xxxxx  
+1) [ImproveMyCity for WeGovNow - Core Component](https://infalia.github.io/wegovnow/imc-core)  
+2) [WeGovNow Nagivation Bar - Joomla Module](https://infalia.github.io/wegovnow/wgn-navbar)  
+3) [WeGovNow OnToMap Logger - Joomla plugin](https://infalia.github.io/wegovnow/wgn-otm-logger)  
+4) [WeGovNow UWUM - Slogin Joomla Plugin](https://infalia.github.io/wegovnow/wgn-uwum-slogin)  
+
+You also need to follow the [prerequisites described in the bottom of the page about getting a signed certificate](#prerequisites).
 
 > ## I want to install the fully functional Offers & Requests application in the WeGovNow platform.
 
 For those cities who already using the WeGovNow platform and wish to include in their setup the Offers & Requests application, the following steps are necessary:
 
-1) xxx  
-2) xxxx  
-3) xxxxx  
+1) [Offers & Requests for WeGovNow - Core Component](https://infalia.github.io/wegovnow/wgn-offers-requests)  
+
+You also need to follow the [prerequisites described in the bottom of the page about getting a signed certificate](#prerequisites).
 
 > ## Is it possible to use WeGovNow Trusted Marketplace or any of its features?
 
@@ -58,6 +61,64 @@ For convenience, we have managed to decouple the reputation aggregation mechanis
 
 So, in order to use the Reputation Aggregation Mechanism you need to collect new data and more specifically new tweets. Note that, the Social Accounts Media Linker and Collector supports; Twitter, Facebook, LinkedIn and Google social accounts, but the Reputation Mechanism works only with Twitter data.
 
-For technical information and source code please visit the [Reputation Aggregator Mechanism GitHub repository](#)
+For technical information and source code please visit the [Reputation Aggregator Mechanism section](https://infalia.github.io/wegovnow/wgn-tmp-reputation)
 
-##### PUT THE LINK
+<hr>
+
+<a name="prerequisites"></a>
+## Prerequisites
+
+**1) Availability of application via IPv4**
+
+The client application is available via a defined URL using IPv4.
+
+**2) Availability of application via IPv6**
+
+The client application is also available using IPv6.
+
+You can validate your URL with the following service 
+
+    https://ipv6-test.com/validate.php?url=https://<your domain>
+
+For example:
+[https://ipv6-test.com/validate.php?url=https://wegovnow.infalia.com/](https://ipv6-test.com/validate.php?url=https://wegovnow.infalia.com/)
+
+**3) Serving via HTTPS**
+
+The client application service is encrypted via HTTPS.  
+DO NOT confuse the SSL certificate for HTTPS with the X.509 certificate needed for the communication of UWUM-Clients with UWUM (see 4)
+
+**4) X.509 certificate for client identification**
+
+i) Create a certificate signing request (CSR) with your details
+
+    CN of the certificate signing request (CSR) should be like "wegovnow.infalia.com" (change accordingly)
+
+To create a CSR (given that you are using openssl):
+
+    openssl req -out wegovnow.infalia.com-uwum.csr -new -newkey rsa:2048 -nodes -keyout wegovnow.infalia.com-uwum.key
+
+ii) Submit CSR to the UWUM Certificate Authority to be signed  
+
+Please send **only** the .csr file, the .key file should stay your secret
+
+iii) UWUM Certificate Authority will then create an application record in the UWUM testing system for your
+application and verify your client_id. 
+
+Your client_id is actually the CN declared in the CSR
+
+iv) UWUM Certificate Authority will send over the signed CRT (.crt) file
+
+You need to create a combined .pem file out of the certificate .key file and the certificate .crt file using the following command (as an example):
+
+    cat wegovnow.infalia.com-uwum.crt wegovnow.infalia.com-uwum.key > wegovnow.infalia.com-uwum.pem
+
+Please ensure to place the .pem file outside the web directory, so it is not exposed to the public
+
+**5) Inform UWUM Certificate Authority of your callback URL**
+
+    e.g. https://wegovnow.infalia.com/oauth2_callback.php
+
+**Note**
+
+Callback URL should be set by client on demand
