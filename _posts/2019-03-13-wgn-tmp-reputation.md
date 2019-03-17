@@ -5,7 +5,7 @@ date:   2019-03-13 17:00:00
 categories: [module, trusted marketplace]
 tags: trusted marketplace
 ---
-The Reputation Aggregator Mechanism, part of the WeGovNow Trusted Marketplace receives input from three different sources in order to define users' reputation score;
+The Reputation Aggregator Mechanism, part of the [WeGovNow Trusted Marketplace](https://infalia.github.io/wegovnow/wgn-tmp) receives input from three different sources in order to define users' reputation score;
 
 1) Indirectly from any other WeGovNow core component through the OnToMap Logger. All user events (actions and activities) are requested and being pulled by the Logger into the “Event Decomposer” that decomposes the raw consolidated information into data about i) activities, ii) location, iii) timestamp and iv) description as free text. The spatial data are forwarded to the “Geo Relevance Scorer”, the temporal data are forwarded to the “Temporal Relevance Scorer”, the interest/activity data are forwarded to the “Activity Scorer”, and data about user reputation are forwarded to the “Trust Ranker”.
 
