@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WeGovNow UWUM - Slogin Joomla Plugin"
-date:   2019-03-13 20:00:00
+date:   2019-03-13 19:00:00
 categories: [joomla, plugin, slogin]
 tags: plugin
 ---
@@ -37,6 +37,7 @@ In order to setup the plugin, the following options should be defined:
 8) Callback URL (calculated automatically by the plugin)
 
 An example setup can be found in the below screenshot
+
 ![Example UWUM plugin setup](https://infalia.github.io/wegovnow/assets/images/uwum_slogin_settings.png)
 
 GitHub link
