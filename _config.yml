@@ -22,7 +22,7 @@ kramdown:
 #------------------------------------------------------------------------------
 # Pagination and friendly URLs
 #------------------------------------------------------------------------------
-paginate: 4
+paginate: 10
 paginate_path: /page-:num
 permalink: /:title
 
