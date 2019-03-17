@@ -19,16 +19,10 @@ The high level architecture of Trusted Marketplace is depicted in the following 
 
 The “Relevance Fusion” merges the various scores that are calculated by applying several rules such as (but not limited to): i) certain radius containing actions of all the places that the specified user has recorded activity (geolocated), ii) actions within available time-slots (e.g. every weekend), iii) reputation threshold, iv) relevance matching threshold, v) notification frequency threshold (e.g. up to 3 notifications per day) and others. Lastly, the “Ranking & Notification” feeds the “Notification” mechanism that informs users with personalised suggestions in the Landing Page, and also helps to enhance the personalised timeline in the user interface (UI) of the Trusted Marketplace. It also helps to prioritise (rank) the most relative offers/demands according to user interests. Trusted Marketplace UI also includes i) the “Reputation Aggregator” which is actually part of the “Offers & Demands Organiser”, ii) the “Accessibility User Preferences Guide” and iii) the Dashboard. The latter three modules are composing the “Enhanced User Profile” that interacts with the UWUM to get and set global variables (e.g. user preferences) as key- value pairs. 
 
-Prerequisites
-----------------
-- Java
-
 Installation
 ----------------
 This is a CLI tool. You run directly from either the command line or create a wrapper around it (e.g. bash script).
 
 GitHub link
 ----------------
-Download the source code at [https://github.com/Infalia/tmp](https://github.com/Infalia/tmp)
-
-Download Offers & Requests as [zip](https://github.com/Infalia/tmp/archive/master.zip)
+Get the source code and find more details at [https://github.com/Infalia/tmp-reputation-mechanism](https://github.com/Infalia/tmp-reputation-mechanism)
