@@ -38,16 +38,13 @@ For those cities who already using the WeGovNow platform and wish to include in 
 
 It should be noted though that TMP is deprecated now but nevertheless **we are happy to support you in case you wish to reuse it and facing technical issues**.
 
-You can check its functionalies either by following the detailed installation instuctions in the [README](https://github.com/Infalia/tmp) file and set it up to your own premises, or you can have a look of its features and functionalities in [WeGovNow Prototype 3](https://pt3-tmp.infalia.com/profile/basic-info). See some indicative screenshots below.
-
-
-##### PUT A SCREENSHOT HERE
+You can check its functionalies either by following the detailed installation instuctions in the [Trusted Marketplace for WeGovNow - Core Component](https://infalia.github.io/wegovnow/wgn-tmp) and set it up to your own premises, or you can have a look of its features and functionalities in [WeGovNow Prototype 3](https://pt3-tmp.infalia.com/profile/basic-info). 
 
 Trusted Marketplace is composed of the following sub-systems: 
 
-1) The "Social Accounts Linker" for collecting personal posts
+1) The "Social Accounts Media Linker and Collector" for collecting personal posts
 
-2) The "Reputation Mechanism" to analyse the collected data from the "Social Accounts Linker" and set a user score
+2) The "Reputation Aggregation Mechanism" to analyse the collected data from the "Social Accounts Media Linker and Collector" and set a user score
 
 3) The "Enhanced User Profile" to be used for better match-making
 
@@ -57,10 +54,10 @@ Trusted Marketplace is composed of the following sub-systems:
 
 6) The "Personalised Timeline" (which is moved in the "WeGovNow Landing Page")
 
-For convenience, we have managed to decouple the reputation mechanism from the Trusted Marketplace. It has a command line interface that allows to input tweets and outputs a set of metrics that could help define the reputation score of a person. The training dataset it was supposed to be populated during the pilot phase of WeGovNow through the "Social Accounts Linker" but the initial collected data during Prototype 3 are erased due to GDPR adjustment and afterwards the Trusted Marketplace was deprecated. 
+For convenience, we have managed to decouple the reputation aggregation mechanism from the Trusted Marketplace. It has a command line interface that allows to input tweets and outputs a set of metrics that could help define the reputation score of a person. The training dataset it was supposed to be populated during the pilot phase of WeGovNow through the "Social Accounts Media Linker and Collector" but the initial collected data during Prototype 3 are erased due to GDPR adjustment and afterwards the Trusted Marketplace was deprecated. 
 
-So, in order to use the Reputation Mechanism you need to collect new data and more specifically new tweets. Note that, the Social Accounts Linker supports; Twitter, Facebook, LinkedIn and Google social accounts, but the Reputation Mechanism works only with Twitter data.
+So, in order to use the Reputation Aggregation Mechanism you need to collect new data and more specifically new tweets. Note that, the Social Accounts Media Linker and Collector supports; Twitter, Facebook, LinkedIn and Google social accounts, but the Reputation Mechanism works only with Twitter data.
 
-For technical information and source code please visit the [Reputation Mechanism GitHub repository](#)
+For technical information and source code please visit the [Reputation Aggregator Mechanism GitHub repository](#)
 
 ##### PUT THE LINK

@@ -9,6 +9,10 @@ This repositoty hosts the Unified WeGovNow User Management (UWUM) slogin plugin 
 
 It allows to login to your Joomla instance via UWUM.
 
+The following activity diagram displays the Login workflow;
+
+![Login workflow)](https://infalia.github.io/wegovnow/assets/images/UWUM_API_call_activity_diagram.png)
+
 Prerequisites
 ----------------
 *WeGovNow UWUM - Slogin Joomla Plugin* requires a Joomla CMS instance to be up and running. You can download Joomla CMS from its official website.
