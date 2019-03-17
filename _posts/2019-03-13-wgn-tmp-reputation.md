@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Trusted Marketplace for WeGovNow - Reputation Aggregator Mechanism Module"
+title:  "Trusted Marketplace for WeGovNow - Reputation Aggregator Mechanism"
 date:   2019-03-13 17:00:00
-categories: [component, trusted marketplace]
+categories: [module, trusted marketplace]
 tags: trusted marketplace
 ---
 The Reputation Aggregator Mechanism, part of the WeGovNow Trusted Marketplace receives input from three different sources in order to define users' reputation score;
