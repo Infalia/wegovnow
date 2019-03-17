@@ -18,7 +18,7 @@ Due to the heavy decoupling that took place, **anyone who wishes to include thei
 
 > ## I want to install the fully functional ImproveMyCity application in the WeGovNow platform.
 
-For those cities who already using the WeGovNow platform and wish to include in their setup the ImproveMyCity application, the following steps are necessary:
+For those cities who already using the WeGovNow platform and wish to include in their setup the ImproveMyCity application, the following should be installed:
 
 1) [ImproveMyCity for WeGovNow - Core Component](https://infalia.github.io/wegovnow/imc-core)  
 2) [WeGovNow Nagivation Bar - Joomla Module](https://infalia.github.io/wegovnow/wgn-navbar)  
@@ -29,7 +29,7 @@ You also need to follow the [prerequisites described in the bottom of the page a
 
 > ## I want to install the fully functional Offers & Requests application in the WeGovNow platform.
 
-For those cities who already using the WeGovNow platform and wish to include in their setup the Offers & Requests application, the following steps are necessary:
+For those cities who already using the WeGovNow platform and wish to include in their setup the Offers & Requests application, the following should be installed:
 
 1) [Offers & Requests for WeGovNow - Core Component](https://infalia.github.io/wegovnow/wgn-offers-requests)  
 

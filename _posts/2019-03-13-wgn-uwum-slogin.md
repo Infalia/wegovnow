@@ -40,7 +40,7 @@ In order to setup the plugin, the following options should be defined:
 7) Notify email URL  
 8) Callback URL (calculated automatically by the plugin)  
 
-An example setup can be found in the below screenshot
+An example setup can be found in the screenshot below
 
 ![Example UWUM plugin setup](https://infalia.github.io/wegovnow/assets/images/uwum_slogin_settings.png)
 
