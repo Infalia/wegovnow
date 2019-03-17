@@ -19,9 +19,7 @@ Installation
 ----------------
 The *WeGovNow OnToMap Logger* follows the installation guidelines of Joomla CMS.
 
-1) Download the [zip package](#) and drag and drop to the Extensions: "Upload and Install Joomla Extensions"
-
-#### MOVE FROM PRIVATE BITBUCKET TO GITHUB AND PROVIDE LINK
+1) Download the [zip package](https://github.com/Infalia/otm_logger/archive/master.zip) and drag and drop to the Extensions: "Upload and Install Joomla Extensions"
 
 Setting up
 ----------------
@@ -67,8 +65,6 @@ Before enabling the *WeGovNow OnToMap Logger* plugin, you need to set some requi
 
 GitHub link
 ----------------
-Download the source code at [https://github.com/Infalia/imc-wegovnow](https://github.com/Infalia/imc-wegovnow)
+Download the source code at [https://github.com/Infalia/otm_logger](https://github.com/Infalia/otm_logger)
 
-Download the [zip package](https://github.com/Infalia/imc-wegovnow/archive/master.zip) ready to be installed as Joomla extension via the Joomla Installer GUI.
-
-### SET THE LINKS
+Download the [zip package](https://github.com/Infalia/otm_logger/archive/master.zip) ready to be installed as Joomla extension via the Joomla Installer GUI.
